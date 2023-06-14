@@ -686,7 +686,6 @@
   font-weight: 500;
   line-height: 1;
   letter-spacing: -0.01em;
-
   border-radius: .4rem;
 
   &.pagination_item__btn--active {
@@ -716,4 +715,8 @@
 
   display: block;
   width: 1.2rem;
+}
+
+.test {
+  background: tomato;
 }
