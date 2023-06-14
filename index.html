@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sources/css/main.css">
+    <title>Dashboard</title>
+</head>
+<body class="body body--aside_minimize">
+
+<div class="page">
+    <div class="wrapper">
+
+        <aside class="page_aside js-page_aside">
+            <div class="page_aside__button_close js-page_aside__button_close">
+                <div class="page_aside__button_close_line"></div>
+            </div>
+
+            <header class="aside_header">
+                <span class="aside_header__icon icon-nut"></span>
+                <h2 class="aside_title">
+                    <span class="aside_title__text">Dashboard</span>
+                    <span class="aside_title__version">v.01</span>
+                </h2>
+            </header>
+
+            <nav class="aside_nav">
+                <ul class="aside_nav__list">
+                    <li class="aside_nav__item">
+                        <a href="#" class="aside_nav__link ">
+                            <span class="aside_nav__icon icon-key"></span>
+                            <span class="aside_nav__text">Dashboard</span>
+<!--                            <span class="aside_nav__arrow icon-arrow"></span>-->
+                        </a>
+
+                    </li>
+                    <li class="aside_nav__item">
+                        <a href="#" class="aside_nav__link">
+                            <span class="aside_nav__icon icon-cube"></span>
+                            <span class="aside_nav__text">Product</span>
+                            <span class="aside_nav__arrow icon-arrow"></span>
+                        </a>
+
+                    </li>
+                    <li class="aside_nav__item">
+                        <a href="#" class="aside_nav__link aside_nav__link--active">
+                            <span class="aside_nav__icon icon-user"></span>
+                            <span class="aside_nav__text">Customers</span>
+                            <span class="aside_nav__arrow icon-arrow"></span>
+                        </a>
+
+                    </li>
+                    <li class="aside_nav__item">
+                        <a href="#" class="aside_nav__link">
+                            <span class="aside_nav__icon icon-wallet"></span>
+                            <span class="aside_nav__text">Income</span>
+                            <span class="aside_nav__arrow icon-arrow"></span>
+                        </a>
+
+                    </li>
+                    <li class="aside_nav__item">
+                        <a href="#" class="aside_nav__link">
+                            <span class="aside_nav__icon icon-discount"></span>
+                            <span class="aside_nav__text">Promote</span>
+                            <span class="aside_nav__arrow icon-arrow"></span>
+                        </a>
+
+                    </li>
+                    <li class="aside_nav__item">
+                        <a href="#" class="aside_nav__link">
+                            <span class="aside_nav__icon icon-message"></span>
+                            <span class="aside_nav__text">Help</span>
+                            <span class="aside_nav__arrow icon-arrow"></span>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <footer class="aside_footer">
+                <div class="aside_footer__manager">
+                    <a href="#" class="aside_nav__link">
+                        <picture class="manager__picture">
+                            <img class="manager__image" src="sources/images/manager.png" alt="manager">
+                        </picture>
+                        <div class="manager__description">
+                            <div class="manager__name">Evano</div>
+                            <div class="manager__position">Project Manager</div>
+                        </div>
+                    </a>
+                </div>
+            </footer>
+        </aside>
+
+        <main class="page_main">
+            <header class="header">
+                <h2 class="header_title">
+                    <span class="header_title__text">Hello Evano</span>
+                    <span class="header_title__icon">👋</span>
+                </h2>
+            </header>
+
+            <section class="section">
+                <header class="section_header">
+                    <div class="section_header__left">
+                        <h2 class="section_header__title">
+                            <span class="section_header__title_text">All Customers</span>
+                        </h2>
+                        <span class="section_header__descr section_header__descr--active">
+                            Active Members
+                        </span>
+                    </div>
+
+                    <div class="section_header__right">
+                        <div class="section_header__search">
+                            <label class="section_header__search_label">
+                                <input type="text" class="section_header__search_input" placeholder="Search" />
+                                <button type="button" class="section_header__search_btn">
+                                    <span class="section_header__search_icon icon-search"></span>
+                                </button>
+
+                            </label>
+                        </div>
+                    </div>
+                </header>
+
+                <section class="section_table">
+                    <table class="section_table__table">
+                        <thead>
+                            <tr>
+                                <td>Customer Name</td>
+                                <td>Company</td>
+                                <td>Phone Number</td>
+                                <td>Email</td>
+                                <td>Country</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+
+                        <tr>
+                            <td>Jane Cooper</td>
+                            <td>Microsoft</td>
+                            <td>(255) 555-0118</td>
+                            <td>jane@microsoft.com</td>
+                            <td>United States</td>
+                            <td>
+                                <button class="section_table__table_btn section_table__table_btn--active" type="button">Active</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Floyd Miles</td>
+                            <td>Yahoo</td>
+                            <td>(205) 555-0100</td>
+                            <td>floyd@yahoo.com</td>
+                            <td>Kiribati</td>
+                            <td>
+                                <button class="section_table__table_btn" type="button">Inactive</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Ronald Richards</td>
+                            <td>Adobe</td>
+                            <td>(302) 555-0107</td>
+                            <td>ronald@adobe.com</td>
+                            <td>Israel</td>
+                            <td>
+                                <button class="section_table__table_btn" type="button">Inactive</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Marvin McKinney</td>
+                            <td>Tesla</td>
+                            <td>(252) 555-0126</td>
+                            <td>marvin@tesla.com</td>
+                            <td>Iran</td>
+                            <td>
+                                <button class="section_table__table_btn section_table__table_btn--active" type="button">Active</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Jerome Bell</td>
+                            <td>Google</td>
+                            <td>(629) 555-0129</td>
+                            <td>jerome@google.com</td>
+                            <td>Réunion</td>
+                            <td>
+                                <button class="section_table__table_btn section_table__table_btn--active" type="button">Active</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Kathryn Murphy</td>
+                            <td>Microsoft</td>
+                            <td>(406) 555-0120</td>
+                            <td>kathryn@microsoft.com</td>
+                            <td>Curaçao</td>
+                            <td>
+                                <button class="section_table__table_btn section_table__table_btn--active" type="button">Active</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Jacob Jones</td>
+                            <td>Yahoo</td>
+                            <td>(208) 555-0112</td>
+                            <td>jacob@yahoo.com</td>
+                            <td>Brazil</td>
+                            <td>
+                                <button class="section_table__table_btn section_table__table_btn--active" type="button">Active</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Kristin Watson</td>
+                            <td>Facebook</td>
+                            <td>(704) 555-0127</td>
+                            <td>kristin@facebook.com</td>
+                            <td>Åland Islands</td>
+                            <td>
+                                <button class="section_table__table_btn" type="button">Inactive</button>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+
+                <footer class="section_footer">
+                    <div class="section_footer__descr">Showing data 1 to 8 of  256K entries</div>
+
+                    <nav class="section_footer__pagination">
+                        <ul class="pagination_list">
+                            <li class="pagination_item">
+                                <button class="pagination_item__btn" type="button">
+                                    <span class="icon icon-arrow2"></span>
+                                </button>
+                            </li>
+                            <li class="pagination_item">
+                                <button class="pagination_item__btn pagination_item__btn--active" type="button">1</button>
+                            </li>
+                            <li class="pagination_item">
+                                <button class="pagination_item__btn" type="button">2</button>
+                            </li>
+                            <li class="pagination_item">
+                                <button class="pagination_item__btn" type="button">3</button>
+                            </li>
+                            <li class="pagination_item">
+                                <button class="pagination_item__btn" type="button">4</button>
+                            </li>
+                            <li class="pagination_item">
+                                <span class="pagination_item__dots">...</span>
+                            </li>
+                            <li class="pagination_item">
+                                <button class="pagination_item__btn" type="button">40</button>
+                            </li>
+                            <li class="pagination_item">
+                                <button class="pagination_item__btn" type="button">
+                                    <span class="icon icon-arrow2"></span>
+                                </button>
+                            </li>
+                        </ul>
+                    </nav>
+                </footer>
+            </section>
+        </main>
+
+    </div>
+</div>
+
+<script src="sources/js/main.js"></script>
+</body>
+</html>
